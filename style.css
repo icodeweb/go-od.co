@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "MaxevilleGT";
+    src: url(/assets/MaxevilleGT.woff);
+}
+
+body {
+    font-family: "MaxevilleGT", sans-serif;
+    padding: 0px 30px 30px 30px;
+}
+
+header {
+    border: 1px solid;
+    border-color: transparent transparent black transparent;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Acknowledgement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+
+    border: 1px solid;
+    border-color: black transparent transparent transparent;
+
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    gap: 35px;
+    border: 1px solid;
+    border-color: black transparent transparent transparent;
+}
+
+.Acknowledgement {
+    display: flex;
+    flex-direction: column;
+}
+
+.links div span,
+.Acknowledgement span {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.links div a,
+.Acknowledgement p {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.colon {
+    animation: fade 1s infinite;
+}
+
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+}
