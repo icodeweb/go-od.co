@@ -1,5 +1,6 @@
 let works = [
     {
+        id: 1,
         isActive: true,
         title: "Intra",
         client: "Intra",
@@ -67,6 +68,7 @@ let works = [
 
         ],
     }, {
+        id: 2,
         isActive: true,
         title: "Kundalini",
         client: "Kundalini",
@@ -167,6 +169,7 @@ let works = [
                 format: "jpg"
             },]
     }, {
+        id: 3,
         isActive: true,
         title: "Lab",
         client: "Lab",
@@ -264,6 +267,7 @@ let works = [
                 format: "jpg"
             }]
     }, {
+        id: 4,
         isFeatured: true,
         isActive: true,
         title: "Nathan Nhan",
@@ -335,6 +339,7 @@ let works = [
             }
         ]
     }, {
+        id: 5,
         isActive: false,
         title: "Natural Toothpaste?",
         client: "",
@@ -345,6 +350,7 @@ let works = [
         Featured: [],
         media: []
     }, {
+        id: 6,
         isFeatured: true,
         isActive: true,
         title: "Redbrick",
@@ -491,6 +497,24 @@ let works = [
         ]]
     }
 ]
+let texts = [
+    {
+        title: "Cause",
+        htmlElemnts: "<p>We are curious about the way we live, consume and connect with the world around us. This curiosity has forged our deep interest in the future of living and what that means for us and this earth. We believe in a good cause, a good community, and leaving this earth a little bit lighter than how we entered it.</p><p>Every year we set out to partner with one or two like-minded, not-for-profit organisation or a for good project pro-bono. Please get in touch if you have a project you wish to discuss.</p><img src=/assets/gifs/powers.gif'>",
+    },
+    {
+        title: "Chat",
+        htmlElemnts: "<a href=`https://www.instagram.com/goodtimes__studio/`>@go.od.times</a><a href=`chat@goodtimes.site`>chat@goodtimes.site</a><a href=`https://www.google.com/maps/place/297+Napier+St,+Fitzroy+VIC+3065/data=!4m2!3m1!1s0x6ad64320882d5c15:0x406c107a80682df1?sa=X&ved=1t:242&ictx=111`>LVL 1, 297 Napier St Fitzroy</a><img src=/assets/gifs/willferrell.gif'>",
+    }, {
+        title: "Company",
+        htmlElemnts: "<p>GO:OD is a thought-led brand experience practice that sees branding as a series of joyful moments found in the unexpectedly familiar. Founded in 2020, our research-driven approach explores the potential of a brand's visual communications to create meaningful, interesting, lasting brand experiences that cut through the noise of the conventional. We seek new and intentional ways of interacting with technology without it becoming the driver of creative reason. We are a small team with far-reaching experience offering companies experimental and considered digital and physical experiences.</p><ul><li>Creative Services</li><li>Strategy and Positioning</li><li>Naming</li><li>Brand Identity</li><li>Packaging</li><li>Publication Design</li><li>Art Direction</li><li>Photography</li></ul><ul><li>Digital Services</li><li>Digital Marketing</li><li>UX / UI Design</li><li>E-Commerce</li><li>Web Development</li></ul><ul><li>Selected Clients</li><li>Bar Rochford</li><li>Bare</li><li>Bedst</li><li>Church</li><li>CK Architecture</li><li>Gingerfinch</li><li>Housemates</li><li>Intra</li><li>Kundalini</li><li>Nathan Nahn</li><li>Redbrick</li><li>The Lab</li><li>The Pop Inn</li><li>Venus Vinifera</li></ul>",
+    }, {
+        title: "People",
+        htmlElemnts: "<p>We are not currently hiring, however, we are always interested in speaking with like-minded people! So feel free to send through your portfolio!</p>",
+    }
+]
+
+
 
 
 const viewToggle = document.querySelector(".viewToggle")
@@ -511,36 +535,31 @@ viewToggle.addEventListener("mouseleave", () => {
 })
 
 
+const worksContainer = document.querySelector('.worksContainer')
 
+for (let i = 0; i < works.length; i++) {
+    worksContainer.innerHTML += `
+            <div class="work" id=${works[i].id}>
+                <img src="/assets/icons/${works[i].isActive ? "folderActive.svg" : "folderInactive.svg"} " >
+        <span class="workTitle">${works[i].title}</span>
+                </div > `
+}
 
-// let spanTexts = [];
-// for (let index = 0; index < 1; index++) {
-//     document.querySelectorAll(".title span").forEach((span) => {
-//         spanTexts.push(span.textContent)
-//         console.log(spanTexts);
-//     });
-// }
+for (let i = 0; i < texts.length; i++) {
+    worksContainer.innerHTML += `
+                <div class="work">
+                <img  class="pngImg"src="/assets/icons/txtFile.png" >
+        <span class="workTitle">${texts[i].title}</span>
+                </div >`
+}
 
+document.querySelectorAll(".work").forEach((work) => {
+    work.addEventListener("click", () => {
+        for (let i = 0; i < works.length; i++) {
+            if (work.id == works[i].id) {
+                worksContainer.innerHTML = texts[i].htmlElemnts
+            }
+        }
+    })
+})
 
-// const inputArray = [
-
-// ];
-
-// const outputArray = inputArray.map(item => {
-//     return {
-//         name: item,
-//         src: "",
-//         format: item.split(".").pop()
-//     };
-// });
-
-// console.log(outputArray);
-
-
-// let gifSrcs = [];
-// for (let index = 0; index < 1; index++) {
-//     document.querySelectorAll("iframe").forEach((iframe) => {
-//         gifSrcs.push(iframe.src)
-//         console.log(gifSrcs);
-//     });
-// }

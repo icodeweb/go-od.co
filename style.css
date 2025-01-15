@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    scrollbar-width: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -123,7 +125,7 @@ footer {
     padding: 0px 15px;
 }
 
-.infoBar div :hover {
+.infoBar div div:hover {
     background-color: #f2f2f2;
     cursor: pointer;
     border-radius: 8px;
@@ -158,4 +160,55 @@ footer {
     height: 28px;
     padding-top: 3px;
 
+}
+
+.links div a {
+    width: min-content;
+    text-wrap: nowrap;
+}
+
+.worksContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+    /* column-gap: 10px; */
+}
+
+.work {
+    width: 20%;
+    padding: 0px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.work img {
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.1));
+
+}
+
+.pngImg {
+    width: 66%;
+    margin: 0% 17%;
+
+}
+
+.work span {
+    text-align: center;
+    font-size: 17.5px;
+    width: fit-content;
+    align-self: center;
+    padding: 2px 15px;
+}
+
+
+
+.work:hover * {
+    background-color: #e9e9e9;
+    border-radius: 5px;
 }
