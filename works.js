@@ -1,5 +1,6 @@
 let works = [
     {
+        isActive: true,
         title: "Intra",
         client: "Intra",
         year: 2020,
@@ -66,6 +67,7 @@ let works = [
 
         ],
     }, {
+        isActive: true,
         title: "Kundalini",
         client: "Kundalini",
         year: 2021,
@@ -165,6 +167,7 @@ let works = [
                 format: "jpg"
             },]
     }, {
+        isActive: true,
         title: "Lab",
         client: "Lab",
         year: 2022,
@@ -260,11 +263,234 @@ let works = [
                 src: "",
                 format: "jpg"
             }]
+    }, {
+        isFeatured: true,
+        isActive: true,
+        title: "Nathan Nhan",
+        client: "Nathan Nhan",
+        year: 2022,
+        services: "Brand, Website Design and Development",
+        info: "We wanted to capture Nathan's approach to ceramics and insert these into the digital experience. We thought about the way he creates pieces and brought that conceptual methodology into the way people engage with the website. This way, the same feeling that the artist creates in their artwork is captured in the useability of the website and the user becomes familiar with the artistic practice as well as the individual pieces of art. ",
+        www: "https://nathannhan.art",
+        Featured: [{
+            year: "2022",
+            wwwText: "Klikkentheke",
+            www: "https://klikkentheke.com/catalogue/nhan/"
+        }],
+        media: [
+            {
+                "name": "logo.gif",
+                "src": "https://player.vimeo.com/video/727267549?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "gif"
+            },
+            {
+                "name": "tote.jpg",
+                "src": "/assets/works/Nathan Nhan/totebag.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "posters.jpg",
+                "src": "/assets/works/Nathan Nhan/poster.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "catalogue.jpg",
+                "src": "/assets/works/Nathan Nhan/catalogue.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "event-signage.jpg",
+                "src": "/assets/works/Nathan Nhan/cutoutposters.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "moving-poster.gif",
+                "src": "https://player.vimeo.com/video/726880341?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "gif"
+            },
+            {
+                "name": "pot.png",
+                "src": "/assets/works/Nathan Nhan/bot.png",
+                "format": "png"
+            },
+            {
+                "name": "web-home.jpg",
+                "src": "/assets/works/Nathan Nhan/home1.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "web-home.jpg",
+                "src": "/assets/works/Nathan Nhan/home2.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "web-home.jpg",
+                "src": "/assets/works/Nathan Nhan/home3.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "web-home.jpg",
+                "src": "/assets/works/Nathan Nhan/home4.jpg",
+                "format": "jpg"
+            }
+        ]
+    }, {
+        isActive: false,
+        title: "Natural Toothpaste?",
+        client: "",
+        year: "",
+        services: "",
+        info: "",
+        www: "",
+        Featured: [],
+        media: []
+    }, {
+        isFeatured: true,
+        isActive: true,
+        title: "Redbrick",
+        client: "Redbrick",
+        year: 2020,
+        services: "Brand, Packaging, Art Direction, Website Design and Development",
+        info: "A company about no-fuss, delicious coffee. We wanted to reflect this sentiment by developing an easy-to-identify system for customers to find the coffee that they love. The approach was to use colour to identify categories and communicate flavour through iconography. This system then was rolled across packaging, website, social media, and brand assets. The goal for the digital experience was to make the website accessible for any type of coffee drinker, no matter the stage of their coffee journey. Through a landing page, with the products front and center, to a considered and categorised shopping experience with clean filtering. We incorporated moments of serendipity that allow the user to uncover hidden content or delve deeper into learning more about the coffee.",
+        www: "http://redbrick.coffee/",
+        instagram: "@redbrick.coffee",
+        instagramLink: "https://www.instagram.com/redbrick.coffee/",
+        Featured: [{
+            year: "2020",
+            wwwText: "AGDA Finalist",
+            www: "https://agda.com.au/agda-award/agda-design-awards-2020/finalist/identity/93154"
+        }, {
+            year: "2021",
+            wwwText: "Site Inspire",
+            www: "https://www.siteinspire.com/websites/10625-redbrick"
+        }, {
+            year: "2021",
+            wwwText: "Typewolf",
+            www: "https://www.typewolf.com/site-of-the-day/redbrick-coffee"
+        }, {
+            year: "2021",
+            wwwText: "Klikkentheke",
+            www: "https://klikkentheke.com/catalogue/redbrick/"
+        }],
+        media: [[
+            {
+                "name": "logo-inline.jpg",
+                "src": "/assets/works/Redbrick/logoInline.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "retail-bags.gif",
+                "src": "https://player.vimeo.com/video/722786318?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "gif"
+            },
+            {
+                "name": "brand-book.gif",
+                "src": "https://player.vimeo.com/video/727949026?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "gif"
+            },
+            {
+                "name": "logo-icon.jpg",
+                "src": "/assets/works/Redbrick/logoIcon.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "website-home.mp4",
+                "src": "https://player.vimeo.com/video/722441319?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "mp4"
+            },
+            {
+                "name": "signage.jpg",
+                "src": "/assets/works/Redbrick/signage.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "business-cards.jpg",
+                "src": "/assets/works/Redbrick/businesscard.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "custom-flavicons.gif",
+                "src": "https://player.vimeo.com/video/717386016?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "gif"
+            },
+            {
+                "name": "posters-flavicons.jpg",
+                "src": "/assets/works/Redbrick/flaviconposters.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "poster.jpg",
+                "src": "/assets/works/Redbrick/poster.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "colours.jpg",
+                "src": "/assets/works/Redbrick/colours.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "mobile-web.mp4",
+                "src": "https://player.vimeo.com/video/722439749?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "mp4"
+            },
+            {
+                "name": "delivery-van.jpg",
+                "src": "/assets/works/Redbrick/van.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "illustration-brickie.jpg",
+                "src": "/assets/works/Redbrick/illustrationbrickie.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "mug.jpg",
+                "src": "/assets/works/Redbrick/mug.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "dark-coffee.jpg",
+                "src": "/assets/works/Redbrick/dark.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "box-crop.jpg",
+                "src": "/assets/works/Redbrick/box.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "single-bag.jpg",
+                "src": "/assets/works/Redbrick/bag.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "mobile-shop.mp4",
+                "src": "https://player.vimeo.com/video/724291786?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "mp4"
+            },
+            {
+                "name": "poster-crop.jpg",
+                "src": "/assets/works/Redbrick/crop.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "mobile-home.mp4",
+                "src": "https://player.vimeo.com/video/723626679?h=98633cdd86&badge=0&autoplay=1&loop=1&autopause=0&muted=1&background=1&player_id=0&app_id=58479",
+                "format": "mp4"
+            },
+            {
+                "name": "special-release.jpg",
+                "src": "/assets/works/Redbrick/SpecialRelease.jpg",
+                "format": "jpg"
+            },
+            {
+                "name": "totes.jpg",
+                "src": "/assets/works/Redbrick/tote.jpg",
+                "format": "jpg"
+            }
+        ]]
     }
 ]
-
-
-
 
 
 const viewToggle = document.querySelector(".viewToggle")
@@ -284,32 +510,37 @@ viewToggle.addEventListener("mouseleave", () => {
     }
 })
 
-let spanTexts = [];
-for (let index = 0; index < 1; index++) {
-    document.querySelectorAll(".title span").forEach((span) => {
-        spanTexts.push(span.textContent)
-        console.log(spanTexts);
-    });
-}
 
 
-[
-    "logo.jpg",
-    "web-home.jpg",
-    "photography.jpg",
-    "lab-moving.mp4",
-    "web-shop.jpg",
-    "manifesto.jpg",
-    "icons.gif",
-    "social-feed.jpg",
-    "box.jpg",
-    "moving-images.gif",
-    "colour.jpg",
-    "stories.jpg",
-    "reel.mp4",
-    "patterns.gif",
-    "object-sans.jpg",
-    "nurture-display.jpg",
-    "product-photography.jpg",
-    "web-blog.jpg"
-]
+
+// let spanTexts = [];
+// for (let index = 0; index < 1; index++) {
+//     document.querySelectorAll(".title span").forEach((span) => {
+//         spanTexts.push(span.textContent)
+//         console.log(spanTexts);
+//     });
+// }
+
+
+// const inputArray = [
+
+// ];
+
+// const outputArray = inputArray.map(item => {
+//     return {
+//         name: item,
+//         src: "",
+//         format: item.split(".").pop()
+//     };
+// });
+
+// console.log(outputArray);
+
+
+// let gifSrcs = [];
+// for (let index = 0; index < 1; index++) {
+//     document.querySelectorAll("iframe").forEach((iframe) => {
+//         gifSrcs.push(iframe.src)
+//         console.log(gifSrcs);
+//     });
+// }
