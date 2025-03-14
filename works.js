@@ -516,11 +516,8 @@ let texts = [
 ]
 
 
-
-
 const viewToggle = document.querySelector(".viewToggle")
 const dropdown = document.querySelector(".dropdown")
-
 
 viewToggle.addEventListener("click", () => {
     if (dropdown.style.display == "none" || dropdown.style.display == "") {
@@ -528,7 +525,6 @@ viewToggle.addEventListener("click", () => {
     }
 
 })
-
 viewToggle.addEventListener("mouseleave", () => {
     if (dropdown.style.display == "block") {
         dropdown.style.display = "none"
@@ -548,42 +544,9 @@ for (let i = 0; i < works.length; i++) {
 
 for (let i = 0; i < texts.length; i++) {
     worksContainer.innerHTML += `
-                <div class="work">
+                <div class="work textFile" id="${i}">
                 <img  class="pngImg"src="/assets/icons/txtFile.png" >
         <span class="workTitle">${texts[i].title}</span>
                 </div >`
 }
-
-document.querySelectorAll(".work").forEach((work) => {
-    work.addEventListener("click", () => {
-        for (let i = 0; i < works.length; i++) {
-            if (work.id == works[i].id) {
-                worksContainer.innerHTML = texts[i].htmlElemnts
-            }
-        }
-    })
-})
-
-
-// let logoElemnt = document.querySelector(".navbar-brand");
-// let img = document.createElement("img");
-// img.src = "https://raw.githubusercontent.com/GhyyamGit/Ghyyam/main/logoicon.png";
-// logoElemnt.innerHTML = "";
-// logoElemnt.appendChild(img);
-
-
-
-
-
-
-
-
-
-
-let logoElemnt = document.querySelector(".navbar-brand")
-let imgElemnt = document.createElement("img")
-imgElemnt.src = "https://raw.githubusercontent.com/GhyyamGit/Ghyyam/main/logoicon.png"
-logoElemnt.innerHTML = ""
-logoElemnt.appendChild(imgElemnt)
-
 
