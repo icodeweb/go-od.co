@@ -212,3 +212,81 @@ footer {
     background-color: #e9e9e9;
     border-radius: 5px;
 }
+
+
+
+
+
+:root {
+    --color-primary: #ff0011;
+    --color-primary-dark: #fbff00;
+    --color-primary-light: #2bff00;
+    --color-primary-reverse: #1e00ff;
+    --logo: url();
+}
+
+.s-button-btn {
+    background: linear-gradient(90deg, rgb(145, 161, 0), yellow);
+}
+
+
+.s-button-text {
+    color: white;
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+.top-navbar {
+    display: none;
+}
+
+
+border-radius: 30px;
+
+.asdjg {
+    max-height: 10000px;
+    height: 2000px;
+}
+
+
+
+background: linear-gradient(180deg, #293880, #cdb4d7);
+
+
+max-height: 1000px;
+height: 400px;
+
+
+.main-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainnav div div div {
+    background-color: #1e00ff;
+    justify-content: space-between;
+}
+
+
+
+body {
+    font-family: "BoldFont", sans-serif;
+}
+
+.s-block {
+    width: auto;
+    height: 100vh;
+}
+
+
+:root {
+    --font-main: 'MEDIUMWEB';
+    --color-primary: #1fb6d1;
+    --color-primary-dark: #0090ab;
+    --color-primary-light: #45dcf7;
+    --color-primary-reverse: #003752;
+}

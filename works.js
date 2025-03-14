@@ -1,3 +1,4 @@
+
 let works = [
     {
         id: 1,
@@ -562,4 +563,27 @@ document.querySelectorAll(".work").forEach((work) => {
         }
     })
 })
+
+
+// let logoElemnt = document.querySelector(".navbar-brand");
+// let img = document.createElement("img");
+// img.src = "https://raw.githubusercontent.com/GhyyamGit/Ghyyam/main/logoicon.png";
+// logoElemnt.innerHTML = "";
+// logoElemnt.appendChild(img);
+
+
+
+
+
+
+
+
+
+
+let logoElemnt = document.querySelector(".navbar-brand")
+let imgElemnt = document.createElement("img")
+imgElemnt.src = "https://raw.githubusercontent.com/GhyyamGit/Ghyyam/main/logoicon.png"
+logoElemnt.innerHTML = ""
+logoElemnt.appendChild(imgElemnt)
+
 
